@@ -1,0 +1,11 @@
+body{
+    background-image: url("About.png");
+    background-size: cover;
+    height: 90%;
+}
+h2,h3{
+    color: black;
+}
+#sub{
+    background-color: rgb(9, 232, 57);
+}

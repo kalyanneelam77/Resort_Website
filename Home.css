@@ -1,0 +1,70 @@
+body{
+    background-image: url("About.png");
+    background-size: cover;
+    height: 70%;
+   
+}
+
+
+marquee{
+    color: black;
+}
+
+nav {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; padding-right: 30%;
+    a:link {
+        color: white;
+    }
+  
+    a:hover {
+        color: blue;
+    }
+    a:active {
+        color: black;
+    }
+
+}
+h3{
+    
+    position: relative;
+    display: flex;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+#scroll{
+    color: black;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    
+    text-align: left;
+    position: fixed;
+    bottom: 220; 
+    left: 0;  
+}

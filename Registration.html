@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Registration.css">
+    <script src="registrationValidation.js" defer></script>
+   
+</head>
+<body>
+    <h3>REGISTRATION PAGE</h3>
+    <form name="myform2" action="Login.html" onsubmit="return registrationValidation()">
+    
+        <h3>CREATE USERNAME & PASSWORD:</h3>
+        <div>
+            Enter Name:
+            <input type="text" name="name" placeholder="Name" required><br><br>
+            Enter Email:
+            <input type="email" name="email" placeholder="Gmail" required><br><br>
+            Enter Mob. Num:
+            <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}" name="phone" required><br><br>
+            User Name:<br>
+            <input type="text" name="uname" placeholder="User Name" required><br><br>
+            Password:<br>
+            <input type="password" id="password" name="pass" placeholder="Password" required><br><br>
+            Confirm Password:<br>
+            <input type="password" id="confirmPassword" name="cpass" placeholder="Confirm Password" required onkeyup="checkPasswords()"><br>
+
+            <!-- Message for password validation -->
+            <span id="message"></span><br>
+
+            <input type="submit" value="submit">
+        </div>
+    </form>
+
+</body>
+</html>

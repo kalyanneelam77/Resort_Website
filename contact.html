@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="contactValidation.js"></script>
+        <title>
+            Contact
+        </title>
+    </head>
+    <body>
+        <form name="myform1" action="LoginSuccess.html" onsubmit="return contactValidation()">
+            
+        <div>
+        <h1>CONTACT US</h1>
+        Full Name:<br><input type="text" name="Fullname" placeholder="Full Name" ><br><br>
+        Phone Number:<br><input type="Phnum" pattern="[0-9]{10}"  name="PHONE NUMBER" placeholder="PH Number" ><br><br>
+        Email:<br><input type="text" name="Email" placeholder="Email" required><br><br>
+        Any Queries<br>
+        <textarea name="mytest" height="20" widhth="35" placeholder="Text area...."></textarea><br>
+        <br>
+        <input id="sub" type="Submit">
+        </div>
+
+    </form>
+    
+      
+        
+    </body>
+    <footer>
+        <p>&copy; 2024  Golden Sands Beach Resort. All rights reserved.</p>
+    </footer> 
+</html>
